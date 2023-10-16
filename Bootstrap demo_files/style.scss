@@ -1,0 +1,19 @@
+.btn {
+ padding: 0.5rem;
+}
+
+@mixin my-button-style($color, $border-radius) {
+ background-color: $color;
+ border: 1px solid $color;
+ border-radius: $border-radius;
+ padding: 0.5rem;
+ color: white;
+}
+
+.my-button {
+ @include my-button-style(blue, 0.5rem);
+}
+
+.custum-gap {
+ padding: 5;
+}

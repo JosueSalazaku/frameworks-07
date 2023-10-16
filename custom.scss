@@ -13,3 +13,7 @@
 .my-button {
  @include my-button-style(blue, 0.5rem);
 }
+
+.custum-gap {
+ padding: 5px;
+}
